@@ -1,0 +1,41 @@
+body{
+    margin-top:20px;
+    background:#eee;
+    overflow-x: hidden;
+}
+.todo-app{
+    background: #fff;
+    padding: 20px;
+}
+.todo-app .input-group-text,
+.todo-app .form-control,
+.todo-app .btn{
+    border-radius: 0px;
+}
+.todo-app .input-group{
+    padding-bottom: 30px;
+}
+.ul-styling{
+    margin:0px;
+    padding:0px;
+}
+.ul-styling li{
+    list-style: none;
+    padding:10px 0px;
+    margin:5px 0px;
+    background: #D9ECD9;
+}
+.ul-styling li span{
+    padding-left: 20px;
+}
+.ul-styling li span i{
+    float: right;
+    padding-right: 20px;
+    color: red;
+}
+.fa.fa-times.cross{
+    cursor: pointer;
+}
+.todo-app .form-control:focus{
+        box-shadow: unset;
+}
